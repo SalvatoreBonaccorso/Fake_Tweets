@@ -1,0 +1,19 @@
+{
+  "name": "faketweets7",
+  "version": "1.0.0",
+  "description": "A simple manage of tweets",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "tweets",
+    "tweet"
+  ],
+  "author": "Salvatore Bonaccorso",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {}
+}
