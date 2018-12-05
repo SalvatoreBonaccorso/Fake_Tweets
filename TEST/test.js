@@ -25,9 +25,8 @@ describe('testiamo i fake tweets', function () {
         fake.addTweets("Salvatore Bonaccorso", "L'Inter è una squadra fortissima");
         fake.addTweets("Carlo Leonardi", "Il rugby è la mia passione");
         fake.addTweets("Carlo Leonardi", "Se non sai una cosa chiedila a google !");
-        fake.editTweetsById(1,'Adoro la programmazione');
+        fake.editTweetsById(1, 'Adoro la programmazione');
         assert.equal(fake.getTweets()[1].description, 'Adoro la programmazione');
-        
     })
 
     it('Testiamo il find Tweets by author e il count', function () {
