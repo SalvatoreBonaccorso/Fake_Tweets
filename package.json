@@ -1,6 +1,6 @@
 {
   "name": "faketweets7",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple manage of tweets",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,13 @@
   "dependencies": {
     "mocha": "^5.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalvatoreBonaccorso/Fake_Tweets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SalvatoreBonaccorso/Fake_Tweets/issues"
+  },
+  "homepage": "https://github.com/SalvatoreBonaccorso/Fake_Tweets#readme"
 }
